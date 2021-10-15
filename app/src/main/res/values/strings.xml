@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="e_commerce_platform">E- Commerce Platform</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">password</string>
+    <string name="sing_in">Sing In</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="error_message">Please check this place</string>
+    <string name="welcome_message">Welcome Again</string>
+    <string name="wrong_message">Somethings Wrong Please Try Again</string>
+    <string name="password_confirmation">Password Confirmation</string>
+    <string name="welcome_user">Welcome %1$s</string>
+    <string name="add_product">Add Product</string>
+    <string name="filter_products">Filter Products</string>
+    <string name="search">Search</string>
+    <string name="select_category">Select Category</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="description">Description</string>
+    <string name="product_image">Product Image</string>
+    <string name="permission_needed">Permission needed!</string>
+    <string name="permission_for_gallery">Permission needed for gallery</string>
+    <string name="give_permission">Give Permission</string>
+    <string name="save">Save</string>
+    <string name="added">Added</string>
+    <string name="internet_connection">Please check to internet connection</string>
+    <string name="sort_by_name">Sort by Name</string>
+    <string name="sort_by_categories">Sort By Categories</string>
+    <string name="sports">SPORTS</string>
+    <string name="update">Update</string>
+
+</resources>

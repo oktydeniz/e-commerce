@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".views.auth.SingUpFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:textSize="32sp"
+        android:text="@string/e_commerce_platform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/singUpEmailInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="10dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:counterTextColor="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:passwordToggleDrawable="@color/purple_200"
+        app:passwordToggleEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/singUpMailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/purple_200"
+            android:textColorHint="@color/purple_200"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/singUpEmailPasswordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="10dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:counterTextColor="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singUpEmailInputLayout"
+        app:passwordToggleDrawable="@color/purple_200"
+        app:passwordToggleEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/singUpPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/purple_200"
+            android:textColorHint="@color/purple_200"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/singUpEmailPasswordConfirmationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="10dp"
+        app:counterTextColor="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singUpEmailPasswordLayout"
+        app:passwordToggleDrawable="@color/purple_200"
+        app:passwordToggleEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/singUpPasswordConfirmationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_confirmation"
+            android:inputType="textPassword"
+            android:textColor="@color/purple_200"
+            android:textColorHint="@color/purple_200"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/singUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/sing_up"
+        android:textAllCaps="false"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/singUpEmailPasswordConfirmationLayout"
+        app:layout_constraintTop_toBottomOf="@+id/singUpEmailPasswordConfirmationLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

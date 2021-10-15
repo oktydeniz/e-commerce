@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">şifre</string>
+    <string name="sing_in">Giriş</string>
+    <string name="sing_up">Kayıt Ol</string>
+    <string name="error_message">Bu Alanları Kontrol Ediniz</string>
+    <string name="welcome_message">Tekrar Hoşgeldiniz</string>
+    <string name="e_commerce_platform">E-ticaret Platformu</string>
+    <string name="wrong_message">Birşeyler ters gitti, tekrar deneyin</string>
+    <string name="password_confirmation">Şifre doğrulama</string>
+    <string name="welcome_user">Hoşgeldin</string>
+    <string name="add_product">Ürün ekle</string>
+    <string name="filter_products">Filtrele</string>
+    <string name="search">Ara</string>
+    <string name="select_category">Kategori seç</string>
+    <string name="product_name">Ürün ismi</string>
+    <string name="added">Eklendi</string>
+    <string name="internet_connection">İnternet bağlantısını kontrol ediniz</string>
+    <string name="sort_by_name">İsme göre sırala</string>
+    <string name="sort_by_categories">Kategoriye göre sırala</string>
+    <string name="sports">Spor</string>
+    <string name="save">Kaydet</string>
+    <string name="give_permission">İzin ver</string>
+    <string name="permission_for_gallery">Galeriye erişim için izin gerekli</string>
+    <string name="permission_needed">İzin gerekli</string>
+    <string name="product_image">Ürün Fotoğrafı</string>
+    <string name="description">Açıklama</string>
+    <string name="product_price">Fiyat</string>
+    <string name="update">Güncelle</string>
+</resources>

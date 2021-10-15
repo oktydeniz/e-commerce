@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_nav"
+    app:startDestination="@id/singInFragment">
+
+    <fragment
+        android:id="@+id/singInFragment"
+        android:name="com.example.e_commerce_platform.views.auth.SingInFragment"
+        android:label="fragment_sing_in"
+        tools:layout="@layout/fragment_sing_in" >
+        <action
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            android:id="@+id/action_singInFragment_to_singUpFragment"
+            app:destination="@id/singUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singUpFragment"
+        android:name="com.example.e_commerce_platform.views.auth.SingUpFragment"
+        android:label="fragment_sing_up"
+        tools:layout="@layout/fragment_sing_up" >
+        <action
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            android:id="@+id/action_singUpFragment_to_singInFragment"
+            app:destination="@id/singInFragment" />
+    </fragment>
+</navigation>
