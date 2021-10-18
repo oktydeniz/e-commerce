@@ -1,10 +1,10 @@
 ## E-ticaret uygulaması
 
-Bu uygulamada android tasarım örüntülerinden MVVM kullanandım. Veri tabanı olarak Firebase Realtime Database uzerinde islemler yaptım. Uygulama temel olarak kullanıcının veri tabanına bir ürünü girmesi, listelenmesi gibi islemleri yapar. işlemlerin kullanıcı arayüzünü kitlememesi için Kotlin Coroutines yapısını birkaç yerde kullandım. Sayfalar arası geçişleri Navigation Component, sayfalar arası veri alışverişi için Sade Args yapısını kullandım. 
+Bu uygulamada android tasarım örüntülerinden MVVM kullanandım. Veri tabanı olarak Firebase Realtime Database uzerinde islemler yaptım. Uygulama temel olarak kullanıcının veri tabanına bir ürünü girmesi, listelenmesi gibi islemleri yapar. işlemlerin kullanıcı arayüzünü kitlememesi için Kotlin Coroutines yapısını birkaç yerde kullandım. Sayfalar arası geçişleri Navigation Component, sayfalar arası veri alışverişi için Safe Args yapısını kullandım. 
  
 ## Veri tabanı yapısı 
 
-Kullanıcılar ve Ürünle adı alıntan iki ana dal ve bu dallarda kullanıcıları ve ürünleri tutan ayrı dallar ekledim. Her bir veri kendisine ait benzersiz bir numara ile işlemlere tabi tutulur.
+Kullanıcılar ve Ürünler adı altınta iki ana dal ve bu dallarda kullanıcıları ve ürünleri tutan ayrı dallar ekledim. Her bir veri kendisine ait benzersiz bir numara ile işlemlere tabi tutulur.
 
 ## XML yapısı ve kullanılan yapılar 
 
